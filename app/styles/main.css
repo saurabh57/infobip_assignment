@@ -1,0 +1,20 @@
+@import url(./bootstrap.css);
+/**---------ADDING FONTS---------- **/
+@import url(../fonts/FontAwesome/css/font-awesome.css);
+
+body{
+	font-family: 'FontAwesome';
+	background:#f1f1f1;
+}
+header,footer{
+	padding: 1em 0;
+	font-size: 1.8em;
+	color:#e0a437;
+	text-align: center;
+}
+header{
+	border-bottom: 2px solid #e0a437;
+}
+i.fa{
+	margin-right: 5px;
+}

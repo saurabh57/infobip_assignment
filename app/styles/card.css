@@ -1,0 +1,65 @@
+.card{
+  width: 250px;
+  max-width: 250px;
+  overflow: hidden;
+  margin: 10px;
+  height: 200px;
+  color:white;
+  padding:0 !important;
+}
+.image-content{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.card-title{
+  padding:0 5px;
+  color:#e0a437;
+  font-size: 1.5em;
+  background: rgba(255, 255, 255, 0.8);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.card-text{
+    padding: 0 5px;
+    font-size: 1.2em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 60%;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    margin-top: 5%;
+}
+.card-button{
+  margin: auto;
+  background: #e0a437;
+  padding: 0.5em 1em;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: all .6s ease;
+}
+.card-button:hover{
+  background: #9e6a0b;
+}
+.card:hover .overlay{
+  -webkit-transition: all .6s ease;
+  -webkit-transform: translateY(-100%);
+}
+.overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.3);
+  -webkit-transition: all 1s ease;
+  top: 100%;
+}
+.overlay .footer{
+  display: flex;
+  display: -webkit-flex;
+  width: 100%;
+  height: 100%;
+}
